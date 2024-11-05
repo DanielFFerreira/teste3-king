@@ -1,0 +1,16 @@
+@@include('components/header.html')
+
+<div class="form__container">
+  <h1>Cadastro</h1>
+  <form id="formValidate">
+    <input type="text" id="nome" placeholder="Nome">
+    <div id="nomeErro" class="error"></div>
+    <input type="email" id="email" placeholder="E-mail">
+    <div id="emailErro" class="error"></div>
+    <input type="password" id="senha" placeholder="Senha">
+    <div id="senhaErro" class="error"></div>
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
+
+@@include('components/footer.html')

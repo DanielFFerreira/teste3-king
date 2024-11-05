@@ -1,0 +1,43 @@
+/*=============== FORM ===============*/
+.form__container {
+  background-color: $white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: $purple;
+    color: $white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $purpleHouver;
+    }
+  }
+}
+
+.error {
+  color: $red;
+  font-size: 14px;
+}
+
+.input-error {
+  border-color: $red !important;
+}
