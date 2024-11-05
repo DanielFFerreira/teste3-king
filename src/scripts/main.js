@@ -10,7 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
       event.preventDefault();
       const isValid = validateForm();
       if (isValid) {
-        alert('Formulário enviado com sucesso!');
+        Swal.fire({
+          title: "Sucesso!",
+          text: "Formulário enviado com sucesso!",
+          icon: "success"
+        });
         formValidate.reset();
         removeErrorStyles();
       }
